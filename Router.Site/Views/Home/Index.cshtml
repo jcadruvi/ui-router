@@ -1,0 +1,9 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div ng-controller="indexController">
+    <h2>Index</h2>
+    <pagination boundary-links="true" total-items="totalItems" page="currentPage" max-size="5"></pagination>
+</div>
+
