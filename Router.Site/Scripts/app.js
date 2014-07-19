@@ -7,28 +7,28 @@
     app.config(function ($stateProvider, $urlRouterProvider) {
         //
         // For any unmatched url, redirect to /state1
-        $urlRouterProvider.otherwise("/state1");
+        $urlRouterProvider.otherwise("/jobs");
         //
         // Now set up the states
         $stateProvider
-          .state('state1', {
-              url: "/state1",
-              templateUrl: "partials/state1.html"
+          .state('jobs', {
+              url: "/jobs",
+              templateUrl: "/Home/jobs.html"
           })
-          .state('state1.list', {
-              url: "/list",
-              templateUrl: "partials/state1.list.html",
+          .state('jobs.list', {
+              url: "/jobs/list",
+              templateUrl: "Views/Home/jobs-list.html",
               controller: function ($scope) {
                   $scope.items = ["A", "List", "Of", "Items"];
               }
           })
-          .state('state2', {
-              url: "/state2",
-              templateUrl: "partials/state2.html"
+          .state('stores', {
+              url: "/stores",
+              templateUrl: "views/home/stores.html"
           })
-          .state('state2.list', {
-              url: "/list",
-              templateUrl: "partials/state2.list.html",
+          .state('stores.list', {
+              url: "/stores/list",
+              templateUrl: "views/home/stores-list.html",
               controller: function ($scope) {
                   $scope.things = ["A", "Set", "Of", "Things"];
               }

@@ -9,6 +9,7 @@
 </head>
 <body>
     @RenderBody()
+    @Html.Raw(File.ReadAllText(Server.MapPath("~/Views/Home/jobs.html")))
     @Scripts.Render("~/Scripts/layout-bundle-javascript")
     @RenderSection("scripts", required: false)
 </body>
