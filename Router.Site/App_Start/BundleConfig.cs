@@ -32,7 +32,8 @@ namespace Router.App_Start
                 .Include("~/Scripts/jquery-1.9.1.js",
                          "~/Scripts/modernizr-2.6.2.js",
                          "~/Scripts/kendo.web.min.js",
-                         "~/Scripts/angular.min.js",
+                         "~/Scripts/angular.js",
+                         "~/Scripts/angular-ui-router.min.js",
                          "~/Scripts/app.js",
                          "~/Scripts/indexController.js"));
         }
