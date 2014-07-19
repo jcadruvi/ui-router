@@ -24,16 +24,12 @@ namespace Router.App_Start
             }
 
             bundles.Add(new StyleBundle("~/Content/layout-bundle-css")
-                .Include("~/Content/kendo.common.css",
-						 "~/Content/kendo.mobitor.css",
-                         "~/Content/Site.css"));
+                .Include("~/Content/Site.css"));
 
             bundles.Add(new ScriptBundle("~/Scripts/layout-bundle-javascript")
                 .Include("~/Scripts/jquery-1.9.1.js",
-                         "~/Scripts/modernizr-2.6.2.js",
-                         "~/Scripts/kendo.web.min.js",
                          "~/Scripts/angular.js",
-                         "~/Scripts/angular-ui-router.min.js",
+                         "~/Scripts/angular-ui-router.js",
                          "~/Scripts/app.js",
                          "~/Scripts/indexController.js"));
         }

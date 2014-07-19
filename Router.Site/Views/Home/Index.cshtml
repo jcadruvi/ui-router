@@ -2,7 +2,10 @@
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-<div ng-controller="indexController">
-    <h2>Index</h2>
-</div>
+
+<div ui-view></div>
+<!-- We'll also add some navigation: -->
+<a ui-sref="state1">State 1</a>
+<a ui-sref="state2">State 2</a>
+
 
