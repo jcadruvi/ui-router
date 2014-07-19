@@ -26,8 +26,7 @@ namespace Router.App_Start
             bundles.Add(new StyleBundle("~/Content/layout-bundle-css")
                 .Include("~/Content/kendo.common.css",
 						 "~/Content/kendo.mobitor.css",
-                         "~/Content/Site.css",
-                         "~/Content/bootstrap.min.css"));
+                         "~/Content/Site.css"));
 
             bundles.Add(new ScriptBundle("~/Scripts/layout-bundle-javascript")
                 .Include("~/Scripts/jquery-1.9.1.js",
@@ -35,8 +34,7 @@ namespace Router.App_Start
                          "~/Scripts/kendo.web.min.js",
                          "~/Scripts/angular.min.js",
                          "~/Scripts/app.js",
-                         "~/Scripts/indexController.js",
-                         "~/Scripts/ui-bootstrap-custom-tpls-0.10.0.min.js"));
+                         "~/Scripts/indexController.js"));
         }
     }
 }
