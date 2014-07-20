@@ -202,6 +202,7 @@
     <Content Include="Scripts\angular.min.js" />
     <Content Include="Scripts\app.js" />
     <Content Include="Scripts\indexController.js" />
+    <Content Include="Scripts\jobController.js" />
     <Content Include="Scripts\jobListController.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery.unobtrusive-ajax.js" />
@@ -213,6 +214,7 @@
     <Content Include="Scripts\knockout.mapping-latest.js" />
     <Content Include="Scripts\ko.gridBinding.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\storeController.js" />
     <Content Include="Scripts\storeListController.js" />
     <Content Include="Views\Home\jobs.html" />
     <Content Include="Views\Home\jobList.html" />

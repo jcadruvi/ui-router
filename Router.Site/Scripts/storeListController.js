@@ -5,6 +5,7 @@
         ['$scope', storeListController]);
 
     function storeListController($scope) {
-        $scope.items = ["A", "List", "Of", "Items"];
+        $scope.message = "The following are the list of stores:";
+        $scope.items = ["Store 1", "Store 2", "Store 3", "Store 4"];
     }
 })();

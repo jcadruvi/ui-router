@@ -13,7 +13,8 @@
         $stateProvider
           .state('jobs', {
               url: "/jobs",
-              templateUrl: "/Home/jobs.html"
+              templateUrl: "/Home/jobs.html",
+              controller: 'jobController'
           })
           .state('jobs.list', {
               url: "/jobs/list",
@@ -22,7 +23,8 @@
           })
           .state('stores', {
               url: "/stores",
-              templateUrl: "/Home/stores.html"
+              templateUrl: "/Home/stores.html",
+              controller: 'storeController'
           })
           .state('stores.list', {
               url: "/stores/list",
