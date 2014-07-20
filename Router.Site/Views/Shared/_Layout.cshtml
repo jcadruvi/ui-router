@@ -1,4 +1,5 @@
 ﻿@using System.Web.Optimization
+@using Router.Helpers
 <!DOCTYPE html>
 <html ng-app="app">
 <head>
@@ -9,8 +10,9 @@
 </head>
 <body>
     @RenderBody()
-    @Html.Raw(File.ReadAllText(Server.MapPath("~/Views/Home/jobs.html")))
     @Scripts.Render("~/Scripts/layout-bundle-javascript")
+    @Html.ServerSideInclude("~/Views/Home/jobs.html")
+    @Html.ServerSideInclude("~/Views/Home/stores.html")
     @RenderSection("scripts", required: false)
 </body>
 </html>

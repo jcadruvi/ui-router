@@ -17,18 +17,18 @@
           })
           .state('jobs.list', {
               url: "/jobs/list",
-              templateUrl: "Views/Home/jobs-list.html",
+              templateUrl: "/Home/jobs-list.html",
               controller: function ($scope) {
                   $scope.items = ["A", "List", "Of", "Items"];
               }
           })
           .state('stores', {
               url: "/stores",
-              templateUrl: "views/home/stores.html"
+              templateUrl: "/Home/stores.html"
           })
           .state('stores.list', {
               url: "/stores/list",
-              templateUrl: "views/home/stores-list.html",
+              templateUrl: "/Home/stores-list.html",
               controller: function ($scope) {
                   $scope.things = ["A", "Set", "Of", "Things"];
               }
