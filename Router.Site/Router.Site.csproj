@@ -213,6 +213,7 @@
     <Content Include="Scripts\knockout.mapping-latest.js" />
     <Content Include="Scripts\ko.gridBinding.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\storeListController.js" />
     <Content Include="Views\Home\jobs.html" />
     <Content Include="Views\Home\jobList.html" />
     <Content Include="Views\Home\storeList.html" />

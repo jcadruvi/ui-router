@@ -27,9 +27,7 @@
           .state('stores.list', {
               url: "/stores/list",
               templateUrl: "/Home/storeList.html",
-              controller: function ($scope) {
-                  $scope.things = ["A", "Set", "Of", "Things"];
-              }
+              controller: 'storeListController'
           })
     });
 })();
