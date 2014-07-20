@@ -17,7 +17,7 @@
           })
           .state('jobs.list', {
               url: "/jobs/list",
-              templateUrl: "/Home/jobs-list.html",
+              templateUrl: "/Home/jobList.html",
               controller: function ($scope) {
                   $scope.items = ["A", "List", "Of", "Items"];
               }
@@ -28,7 +28,7 @@
           })
           .state('stores.list', {
               url: "/stores/list",
-              templateUrl: "/Home/stores-list.html",
+              templateUrl: "/Home/storeList.html",
               controller: function ($scope) {
                   $scope.things = ["A", "Set", "Of", "Things"];
               }

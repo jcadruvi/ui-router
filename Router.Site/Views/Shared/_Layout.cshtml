@@ -12,7 +12,9 @@
     @RenderBody()
     @Scripts.Render("~/Scripts/layout-bundle-javascript")
     @Html.ServerSideInclude("~/Views/Home/jobs.html")
+    @Html.ServerSideInclude("~/Views/Home/jobList.html")
     @Html.ServerSideInclude("~/Views/Home/stores.html")
+    @Html.ServerSideInclude("~/Views/Home/storeList.html")
     @RenderSection("scripts", required: false)
 </body>
 </html>
