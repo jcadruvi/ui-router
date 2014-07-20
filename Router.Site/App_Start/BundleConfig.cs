@@ -31,7 +31,7 @@ namespace Router.App_Start
                          "~/Scripts/angular.js",
                          "~/Scripts/angular-ui-router.js",
                          "~/Scripts/app.js",
-                         "~/Scripts/indexController.js"));
+                         "~/Scripts/jobListController.js"));
         }
     }
 }

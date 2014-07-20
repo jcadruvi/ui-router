@@ -18,9 +18,7 @@
           .state('jobs.list', {
               url: "/jobs/list",
               templateUrl: "/Home/jobList.html",
-              controller: function ($scope) {
-                  $scope.items = ["A", "List", "Of", "Items"];
-              }
+              controller: 'jobListController'
           })
           .state('stores', {
               url: "/stores",
