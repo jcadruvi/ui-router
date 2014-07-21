@@ -30,6 +30,7 @@ namespace Router.App_Start
                 .Include("~/Scripts/jquery-1.9.1.js",
                          "~/Scripts/angular.js",
                          "~/Scripts/angular-ui-router.js",
+                         "~/Scripts/angular-animate.js",
                          "~/Scripts/app.js",
                          "~/Scripts/jobController.js",
                          "~/Scripts/jobListController.js",

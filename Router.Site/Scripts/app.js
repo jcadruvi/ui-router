@@ -2,7 +2,7 @@
     'use strict';
 
     // Create the module and define its dependencies.
-    var app = angular.module('app', ['ui.router']);
+    var app = angular.module('app', ['ui.router', 'ngAnimate']);
 
     app.config(function ($stateProvider, $urlRouterProvider) {
         //
