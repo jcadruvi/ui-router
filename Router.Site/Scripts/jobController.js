@@ -2,9 +2,12 @@
     'use strict';
 
     angular.module('app').controller('jobController',
-        ['$scope', jobController]);
+        ['$rootScope', '$scope', jobController]);
 
-    function jobController($scope) {
+    function jobController($rootScope, $scope) {
+        $rootScope.$on('$stateChangeStart', function () {
+            $scope.slide = $scope.slide || 'slide-left'
+        });
         $scope.message = "This is the Jobs page.";
     }
 })();
