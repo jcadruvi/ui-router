@@ -60,6 +60,27 @@ textarea {
     display: none;
 }
 
+.message
+{
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    -ms-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+    opacity:1;
+}
+
+.message.ng-hide {
+  opacity:0;
+}
+
+.message.ng-hide-add, .message.ng-hide-remove {
+  /* this needs to be here to make it visible during the animation
+     since the .ng-hide class is already on the element rendering
+     it as hidden. */
+  display:block!important;
+}
+
 .slide-left.ng-enter,
 .slide-left.ng-leave,
 .slide-right.ng-enter,

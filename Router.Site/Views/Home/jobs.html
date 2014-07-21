@@ -1,6 +1,15 @@
 ﻿<script type="text/ng-template" id="/Home/jobs.html">
     <h1>{{ message }}</h1>
-    <hr />
-    <a ui-sref="jobs.list">Show all jobs</a>
+    <div>
+        <input type="button" ng-click="showAnimation = true" value="Show Animation" />
+    </div>
+    <div ng-show="showAnimation" class="message">
+        This is the animation message.
+    </div>
+    <br />
+    <div>
+        <a ui-sref="jobs.list">Show all jobs</a>
+    </div>
+    <br />
     <div ui-view></div>
 </script>

@@ -9,5 +9,6 @@
             $scope.slide = $scope.slide || 'slide-left'
         });
         $scope.message = "This is the Jobs page.";
+        $scope.showAnimation = false;
     }
 })();
