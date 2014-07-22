@@ -17,7 +17,7 @@
               controller: 'jobController'
           })
           .state('jobs.list', {
-              url: "/jobs/list",
+              url: "/list",
               templateUrl: "/Home/jobList.html",
               controller: 'jobListController'
           })
@@ -27,7 +27,7 @@
               controller: 'storeController'
           })
           .state('stores.list', {
-              url: "/stores/list",
+              url: "/list",
               templateUrl: "/Home/storeList.html",
               controller: 'storeListController'
           })
